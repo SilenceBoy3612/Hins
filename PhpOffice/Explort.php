@@ -9,32 +9,31 @@ $inputFileName = './模板.xlsx';
 
 $db = new DB($phpexcel);;
 
-$B="龙陂村";
 
-//echo $B;
-$Num = $db->getCount($B);
-$Data = $db->getSingleCountryInfo($B);
+$A="礼士";
+$B="三联村";
+$num = $db->getCount2($A,$B);
+$Data=$db->getSingleCountryInfo2($A,$B);
+echo $num;
 $spreadsheet=IOFactory::load($inputFileName);
 
 $objExcel = $spreadsheet->getActiveSheet();
-//echo "<pre>";
-////var_dump($Data);
-//echo "<pre>";
+echo "<pre>";
+var_dump($Data);
+echo "<pre>";
 ////print_r($Num);
 //foreach ($Num as $key=>$val){
 //    $num=$val[0];
 //}
 //print_r($Num) ;
 //
-$filed="电光村";
-$num = $db->getCount($filed);
-echo $num;
+
 
 //$res=$db->getNum($filed);
 //echo $res;
-$C="贝墩";
-$D = $db->getTownCountryNum($C);
-echo $D;
+//$C="贝墩";
+//$D = $db->getTownCountryNum($C);
+//echo $D;
 //$j=8;
 //$count=$j+$num-1;
 //for (;$j<=$count;){
