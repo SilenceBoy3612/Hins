@@ -4,6 +4,7 @@ include "./vendor/autoload.php";
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
+
 //查询数据库，返回数据
 class DB
 {
@@ -152,6 +153,9 @@ class DB
 //    $res=mysqli_query($this->conn,$sql);
 //    $data1=$this->conn->query($sql);
         $res = self::getResultValue($sql);
+        if (empty($res)){
+            return 0;
+        }
         return $res;
     }
 
@@ -204,6 +208,15 @@ class DB
         //获取活动的sheet
         $objExcel = $spreadsheet->getActiveSheet();
 
+        //设置默认样式
+        $spreadsheet->getDefaultStyle()->getAlignment()->setVertical(\PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_CENTER);
+        $spreadsheet->getDefaultStyle()->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER);
+
+
+
+
+//        $objExcel->getStyle('B')->getNumberFormat()->setFormatCode(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER);
+
         $Begin=$Star;
         $End = $Begin+$InfoCount-1;
         for($i=1;$Begin<=$End;) {
@@ -213,7 +226,7 @@ class DB
                 $objExcel->setCellValue("L2", $val['A'])
                     ->setCellValue('A'.$Begin,$i)
                     ->setCellValue("B" . $Begin, $val['B'])
-                    ->setCellValue("C" . $Begin, $val['C'])
+                    ->setCellValue("C" . $Begin, "\t".$val['C']."\t")
                     ->setCellValue("D" . $Begin, $val['D'])
                     ->setCellValue("H" . $Begin, $val['E'])
                     ->setCellValue("I" . $Begin, $val['F'])
@@ -234,5 +247,57 @@ class DB
         }
         $write = new Xlsx($spreadsheet);
         $write->save("$TownName$CountryName.xlsx");
+//        $this->Browser_export($TownName.$CountryName,'xlsx');
+//        $write->save('php://output');
+
     }
+
+
+    /*
+     * 获取镇的数量
+     */
+    public function getTown($A){
+        $sql="select distinct A from da where A ='{$A}'";
+//        $res=mysqli_query($this->conn,$sql);
+        $res =  self::getResultValue($sql);
+        if (empty($res)){
+            return 0;
+        }else{
+            return 1;
+        }
+    }
+
+//    //设置浏览器输出
+//     public function browser_expert($type,$filename)
+//    {   if ($type=="Excel5"){
+//        // Redirect output to a client’s web browser (Excel5)
+//        header('Content-Type: application/vnd.ms-excel');
+//    }else {
+//// Redirect output to a client’s web browser (Excel2007)
+//        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+//    }
+//        header('Content-Disposition: attachment;filename="'.$filename.'"');
+//        header("Content-Type:application/force-download");
+//        header("Content-Type:application/octet-stream");
+//        header("Content-Type:application/download");
+//        header("Content-Transfer-Encoding:binary");
+//        header('Cache-Control: max-age=0');
+//        // If you're serving to IE 9, then the following may be needed
+//        header('Cache-Control: max-age=1');
+//
+//    }
+    public function Browser_export($filename,$format){
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+        header('Content-Disposition: attachment;filename="'.$filename.'.'.$format.'"');
+        header("Content-Type:application/force-download");
+        header("Content-Type:application/octet-stream");
+        header("Content-Type:application/download");
+        header("Content-Transfer-Encoding:binary");
+        header('Cache-Control: max-age=0');
+        // If you're serving to IE 9, then the following may be needed
+        header('Cache-Control: max-age=1');
+
+     }
+
 }

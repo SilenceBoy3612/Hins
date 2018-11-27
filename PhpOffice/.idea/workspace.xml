@@ -81,55 +81,173 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1327892164">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="1" />
+          <entry key="php" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ini" value="1" />
+          <entry key="PHP" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ini" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-852916516">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="126" />
+          <entry key="php" value="1040" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="126" />
+          <entry key="PHP" value="1040" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2038918434">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="php" value="614" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="PHP" value="614" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="php" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="107" column="47" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="47" />
+            <state relative-caret-position="1679">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#84#123#0#PHP" expanded="true" />
-                <element signature="e#88#102#0#PHP" />
                 <element signature="n#__construct#0;n#DB#0;n#!!top" />
-                <element signature="e#384#403#0#PHP" />
                 <element signature="n#getResult#0;n#DB#0;n#!!top" />
-                <element signature="e#635#654#0#PHP" />
                 <element signature="n#getResultValue#0;n#DB#0;n#!!top" />
-                <element signature="e#849#870#0#PHP" />
-                <element signature="e#992#1013#0#PHP" />
-                <element signature="e#2079#2137#0#PHP" />
-                <element signature="e#2298#2354#0#PHP" />
-                <element signature="e#2612#2645#0#PHP" />
-                <element signature="e#2818#2855#0#PHP" />
-                <element signature="e#3127#3167#0#PHP" />
-                <element signature="e#3340#3383#0#PHP" />
+                <element signature="n#getTownInfo#0;n#DB#0;n#!!top" />
+                <element signature="n#getTownNum#0;n#DB#0;n#!!top" />
+                <element signature="n#getTownCountryInfo#0;n#DB#0;n#!!top" />
+                <element signature="n#getTownCountryNum#0;n#DB#0;n#!!top" />
+                <element signature="n#getCountryInfo#0;n#DB#0;n#!!top" />
+                <element signature="n#getCountryNum#0;n#DB#0;n#!!top" />
+                <element signature="n#getAllCountryInfo#0;n#DB#0;n#!!top" />
+                <element signature="n#getAllCountryNum#0;n#DB#0;n#!!top" />
+                <element signature="n#getCount2#0;n#DB#0;n#!!top" />
+                <element signature="n#getSingleCountryInfo#0;n#DB#0;n#!!top" />
+                <element signature="n#getSingleCountryInfo2#0;n#DB#0;n#!!top" />
                 <element signature="n#getNum#0;n#DB#0;n#!!top" />
+                <element signature="n#setCell#0;n#DB#0;n#!!top" />
+                <element signature="n#getTown#0;n#DB#0;n#!!top" />
+                <element signature="n#Browser_export#0;n#DB#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MultExport.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Count.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="69">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MultExport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SingleExport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="414">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,16 +265,20 @@
         <option value="$PROJECT_DIR$/SqlHealper.php" />
         <option value="$PROJECT_DIR$/read.php" />
         <option value="$PROJECT_DIR$/stam.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/dbConfig.php" />
         <option value="$PROJECT_DIR$/Print.php" />
         <option value="$PROJECT_DIR$/Explort.php" />
         <option value="$PROJECT_DIR$/Test.php" />
+        <option value="$PROJECT_DIR$/../../../php-7.2.10/php.ini" />
+        <option value="$PROJECT_DIR$/common.php" />
         <option value="$PROJECT_DIR$/SingleExport.php" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/DB.php" />
         <option value="$PROJECT_DIR$/DB.php" />
+        <option value="$PROJECT_DIR$/Print.html" />
         <option value="$PROJECT_DIR$/MultExport.php" />
+        <option value="$PROJECT_DIR$/Count.php" />
       </list>
     </option>
   </component>
@@ -180,11 +302,11 @@
       <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="834" />
-    <option name="y" value="41" />
-    <option name="width" value="1044" />
-    <option name="height" value="967" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="256" />
+    <option name="y" value="13" />
+    <option name="width" value="1205" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -206,8 +328,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Excel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../myphp_www/PHPTutorial/WWW/Excel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -262,11 +385,22 @@
       <workItem from="1542698945230" duration="19568000" />
       <workItem from="1542724327618" duration="1007000" />
       <workItem from="1542758619347" duration="34902000" />
+      <workItem from="1542847315476" duration="838000" />
+      <workItem from="1542848182940" duration="1716000" />
+      <workItem from="1542879084856" duration="1164000" />
+      <workItem from="1542930035604" duration="9380000" />
+      <workItem from="1542943873444" duration="11364000" />
+      <workItem from="1542965916686" duration="31000" />
+      <workItem from="1543017975446" duration="424000" />
+      <workItem from="1543040681387" duration="321000" />
+      <workItem from="1543041093340" duration="1430000" />
+      <workItem from="1543191115907" duration="4490000" />
+      <workItem from="1543223801351" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165497000" />
+    <option name="totallyTimeSpent" value="197266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,9 +412,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="834" y="41" width="1044" height="967" extended-state="0" />
+    <frame x="256" y="13" width="1205" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34044716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1790393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,10 +428,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32805756" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32760736" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="12" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.3297362" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -331,30 +466,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Print.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#39#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Print.php" />
     <entry file="file://$PROJECT_DIR$/load.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Explort.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#81#120#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,41 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/99999/PhpOffice/DB.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="107" column="47" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="47" />
-          <folding>
-            <element signature="e#84#123#0#PHP" expanded="true" />
-            <element signature="e#88#102#0#PHP" />
-            <element signature="n#__construct#0;n#DB#0;n#!!top" />
-            <element signature="e#384#403#0#PHP" />
-            <element signature="n#getResult#0;n#DB#0;n#!!top" />
-            <element signature="e#635#654#0#PHP" />
-            <element signature="n#getResultValue#0;n#DB#0;n#!!top" />
-            <element signature="e#849#870#0#PHP" />
-            <element signature="e#992#1013#0#PHP" />
-            <element signature="e#2079#2137#0#PHP" />
-            <element signature="e#2298#2354#0#PHP" />
-            <element signature="e#2612#2645#0#PHP" />
-            <element signature="e#2818#2855#0#PHP" />
-            <element signature="e#3127#3167#0#PHP" />
-            <element signature="e#3340#3383#0#PHP" />
-            <element signature="n#getNum#0;n#DB#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../99999/PhpOffice/DB.php" />
     <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Collection/Cells.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -407,17 +489,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SingleExport.php">
+    <entry file="file://$PROJECT_DIR$/../../../php-7.2.10/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5336">
+          <caret line="394" column="23" lean-forward="true" selection-start-line="394" selection-start-column="23" selection-end-line="394" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Explort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#84#123#0#PHP" expanded="true" />
+            <element signature="n#__construct#0;n#DB#0;n#!!top" />
+            <element signature="n#getResult#0;n#DB#0;n#!!top" />
+            <element signature="n#getResultValue#0;n#DB#0;n#!!top" />
+            <element signature="n#getTownInfo#0;n#DB#0;n#!!top" />
+            <element signature="n#getTownNum#0;n#DB#0;n#!!top" />
+            <element signature="n#getTownCountryInfo#0;n#DB#0;n#!!top" />
+            <element signature="n#getTownCountryNum#0;n#DB#0;n#!!top" />
+            <element signature="n#getCountryInfo#0;n#DB#0;n#!!top" />
+            <element signature="n#getCountryNum#0;n#DB#0;n#!!top" />
+            <element signature="n#getAllCountryInfo#0;n#DB#0;n#!!top" />
+            <element signature="n#getAllCountryNum#0;n#DB#0;n#!!top" />
+            <element signature="n#getCount2#0;n#DB#0;n#!!top" />
+            <element signature="n#getSingleCountryInfo#0;n#DB#0;n#!!top" />
+            <element signature="n#getSingleCountryInfo2#0;n#DB#0;n#!!top" />
+            <element signature="n#getNum#0;n#DB#0;n#!!top" />
+            <element signature="n#setCell#0;n#DB#0;n#!!top" />
+            <element signature="n#getTown#0;n#DB#0;n#!!top" />
+            <element signature="n#Browser_export#0;n#DB#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Count.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MultExport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1265">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SingleExport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
