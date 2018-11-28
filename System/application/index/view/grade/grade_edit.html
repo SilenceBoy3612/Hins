@@ -1,0 +1,41 @@
+{extend name='public/base'/}
+{block name='header'}{/block}
+{block name='menu'}
+{block name='seo'}
+<title>{$title|default="页面标题"}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<article class="cl pd-20">
+    <form action="" method="post" class="form form-horizontal" id="form-grade-edit">
+        <div class="form-label col-xs-4 col-sm-3">*<span class="c-red">班级：</span>
+           <div class="formControls col-xs-8 col-sm-9">
+               <input type="text" class="input-text" value="{$grade_info.name}" placeholder="" id="name">
+           </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>学制： </label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="{$grade_info.length}" placeholder="">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>学费：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" placeholder="学费" name="price" id="price" value="{$grade_info.price}">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red"></span>授课老师</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text disabled " readonly placeholder="授课老师" name="teacher" id="teacher" value="{$grade_info.teacher}">
+            </div>
+        </div>
+    <
+    </form>
+</article>

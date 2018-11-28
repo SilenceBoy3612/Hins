@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{block name="js"}
+<script>
+    $(function () {
+        $("form").children().change(function () {
+           $("#submit").removeClass('disabled');
+        });
+
+        $("#submit").on('click',function (event) {
+            $.ajax({
+               type:"POST",
+               url:"{:url('user/editUser')}",
+               data:$("#form-admin-add").serialize(),
+               dataType:'json',
+               success:function (data) {
+                   if (data==1){
+                       alert(data.message);
+                   }else {
+                       alert(data.message);
+                   }
+               }
+            });
+        })
+    })
+</script>
+{/block}
+</body>
+</html>
