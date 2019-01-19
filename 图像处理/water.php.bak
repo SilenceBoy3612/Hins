@@ -1,0 +1,27 @@
+<?php
+	
+
+	function getWatermark($image,$path,$water,$pct=50){
+
+	//1.打开要添加水印图的资源
+	$dst = imagecreatefromstring($image);
+
+	//2.打开水印图片资源
+	$src = imagecreatefrompng($water);
+
+	//3.采样复制合并：全部水印图放到原图左上角
+	$src_info = getimagesize($water);	#获取图片信息返回数组，0元素为宽，1元素为高
+
+	imagecopymerge($dst,$src,0,0,0,0,$src_info[0],$src_info[1],$pct);	#透明度50
+
+	//4.保存图片
+	$iamge_info = getimagesize($water);
+
+	header('Content-type:image/png');
+	imagejepg($dst);
+	imagejepg($dst,'water.jpg');
+ 
+	//5.销毁资源
+	imagedestory($dst);
+	imagedestory($src);
+?>
